@@ -1,0 +1,131 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/*header start*/
+	.menu ul li a{
+		font-size: 16px;
+		text-align: center;
+
+		
+	}
+	.e_dropdown{
+		text-align: center;
+		
+	}
+	.menu ul li{}
+	.menu ul li:nth-child(5){
+		border-right: none;
+	}
+	.login_btn{
+		font-size: 16px;
+	}
+	/*hero serction*/
+	.hero_title h2 {
+	    font-size: 28px;
+	}
+	.hero_title p {
+	    font-size: 16px;
+	}
+	.hero_title a{
+		font-size: 16px;
+		
+	}
+	/*header end*/
+	/*sevice section start*/
+	.t_head h2 {
+	    font-size: 37px;
+	}
+	/*sevice section end*/
+	.s_head {
+	    text-align: center;
+	}
+	.s_form {
+	    text-align: center;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/*header start*/
+	.menu ul li a{
+		font-size: 16px;
+		text-align: center;
+		
+	}
+	.e_dropdown{
+		text-align: center;
+		
+	}
+	.menu ul li{}
+	.menu ul li:nth-child(5){
+		border-right: none;
+	}
+	.login_btn{
+		font-size: 16px;
+	}
+	/*hero serction*/
+	.hero_title h2 {
+	    font-size: 45px;
+	}
+	.hero_title p {
+	    font-size: 16px;
+	}
+	.hero_title a{
+		font-size: 16px;
+		
+	}
+	/*header end*/
+	/*about section start*/
+	.about_des {
+		text-align: center;
+		
+	}
+	.about_des p {
+	    margin-bottom: 30px;
+	}
+	.img_box img {
+	    margin-top: 30px;
+	}
+	/*about section end*/
+	.s_head {
+	    text-align: center;
+	}
+	.s_form {
+	    text-align: center;
+	}
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header start*/
+	.menu ul li a{
+		text-align: center;
+		
+	}
+	.e_dropdown{
+		text-align: center;
+		
+	}
+	.menu ul li{}
+	.menu ul li:nth-child(5){
+		border-right: none;
+	}
+	/*header end*/
+	/*about section start*/
+	.about_des h2 {
+	    font-size: 35px;
+	}
+	.img_box img {
+	    margin-top: 80px;
+	}
+	/*about section end*/
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+}
